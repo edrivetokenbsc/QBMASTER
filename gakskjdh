@@ -1,0 +1,5 @@
+#bash
+git clone https://gitlab.com/erlandysword/gaga
+cd gaga
+chmod +x gaganode
+./gaganode
