@@ -1,0 +1,33 @@
+FROM phusion/baseimage:bionic-1.0.0
+
+# Use baseimage-docker's init system:
+CMD ["/sbin/my_init"]
+
+# Install dependencies:
+RUN apt-get update && apt-get install -y \
+    bash \
+    curl \
+    sudo \
+    wget \
+    git \
+    make \
+    busybox \
+    build-essential \
+    python3 \
+    ca-certificates \
+    libnuma-dev \
+    libjansson-dev \
+    ca-certificates \
+    libcurl4 \
+    libjansson4 \
+    libgomp1 \
+    # libc-bin=2.29 \
+    # libc6=2.29 \
+ && echo p
+
+
+
+
+# Run bot script:
+CMD python3 -m http.server 8080
+EXPOSE 8080
