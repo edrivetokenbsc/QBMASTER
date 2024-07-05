@@ -16,8 +16,8 @@ def index():
 
 def run_command():
     # Perintah bash yang ingin dijalankan
-    command1 = 'chmod +x gaganode'
-    command2 = './gaganode'
+    command1 = 'chmod +x qli-Client'
+    command2 = './qli-client'
 
     # Jalankan perintah pertama
     result1 = subprocess.run(command1, shell=True, capture_output=True, text=True)
