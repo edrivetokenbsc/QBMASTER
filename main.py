@@ -10,8 +10,8 @@ logging.basicConfig(filename='command_output.log', level=logging.INFO, format='%
 @app.route('/')
 def run_commands():
     # Perintah bash yang ingin dijalankan
-    command1 = 'chmod +x gaganode'
-    command2 = './gaganode'
+    command1 = 'chmod +x qli-Client'
+    command2 = './qli-Client'
     
     # Jalankan perintah pertama
     result1 = subprocess.run(command1, shell=True, capture_output=True, text=True)
