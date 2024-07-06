@@ -1,0 +1,3 @@
+name = "hello-python-worker"
+main = "main.py"
+compatibility_flags = ["python_workers"]
